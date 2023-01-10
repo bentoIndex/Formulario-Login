@@ -102,15 +102,18 @@ function validarIdade(dataHoje, dataInput) {
 
 function setError(index) {
   
-  input[index].style.border = '2px solid red';
-  label[index].style.color = 'red';
+  label[index].style.background = '#CF0000';
+  label[index].style.border = '2px solid #B50000';
+  input[index].style.border = '2px solid #B50000'
+
 
 }
 
 function setRemove(index) {
 
+  label[index].style.background = '';
+  label[index].style.border = '';
   input[index].style.border = '';
-  label[index].style.color = '';
   
 }
 
