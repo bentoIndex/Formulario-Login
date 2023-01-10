@@ -1,1 +1,183 @@
+body {
+
+    background-image: url(/img/wallhaven-vg2v65.jpg);
+    background-size: cover;
+
+}
+
+#all-content {
+
+    background-color: white;
+    box-sizing: border-box;
+    width: 35%;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 30%;
+    border-radius: 10px;
+
+}
+
+#title-conteiner {
+
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgba(163, 114, 241, 0.247);
+
+}
+
+.title {
+
+    width: 95%;
+    margin: 15px;
+    margin-top: 50px;
+    padding-left: 55px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    color: ;
+
+}
+
+
+img {
+
+    width: 70px; 
+    position: absolute;
+    right: 90px;
+    top: 60px;
+    
+
+}
+
+.sub-content {
+
+    width: 95%;
+    height: 10%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.sub-content > span {
+
+    width: 95%;
+    font-size: 20px;
+    color: rgb(138, 73, 243);
+
+}
+
+#form-container {
+
+    background-color: white;
+    width: 95%;
+    height: 50%;
+
+}
+
+.form-control {
+
+    margin: 5px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-control > .label-content {
+
+
+    display: flex;
+    position: absolute;
+    left: 1.2cm;
+    margin-bottom: 1.2cm;
+    padding-left: 5px;
+
+
+}
+
+.label-content > label {
+
+    background-color: white;
+    color: rgb(121, 82, 185);
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+
+.form-control > input {
+
+    width: 95%;
+    height: 40px;
+    border: 2px solid rgb(163, 114, 241);
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+
+.form-control > input::placeholder {
+
+    padding: 10px;
+    color: rgb(202, 202, 202);
+
+}
+
+footer {
+
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#btn {
+
+    width: 95%;
+    height: 50%;
+    display: flex;
+    justify-content: end;   
+    align-items: center;
+    
+
+}
+
+#btn > .submit {
+
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(63,71,251,1) 15%, rgba(157,70,252,1) 56%, rgba(209,70,252,1) 91%);
+    filter:grayscale(40%);
+    color: white;
+    border: 2px solid #6B0773;
+    margin-top: 19px;
+
+}
+
+#btn input:hover {
+
+    filter: grayscale(0%);
+
+}
+
+
+
+
+
+
 
